@@ -55,7 +55,7 @@ function App() {
     <>
       <header>
         <div className={['back',isDispalyBack()].join(' ')} onClick={hangleOnClick} >
-        <button>back</button></div>
+        <button className='back_icon'>&lt;&nbsp;back</button></div>
         <form onSubmit={handleOnSubmit}>
           <input className='search' type="text" placeholder="Search..."
             value={searchTerm} onChange={handleOnChange}
